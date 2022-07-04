@@ -19,7 +19,7 @@ http://localhost:8080/v1 - GET запрос получения стартово�
 
 Другие методы можно посмотреть по пути: src/main/java/com/example/demo/controller/ApiController.java
 
-GET: v1/latest/info
+GET: v1/latest/currencies
 
 GET: v1/latest/info
 
