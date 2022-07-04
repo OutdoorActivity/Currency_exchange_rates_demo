@@ -4,13 +4,13 @@ Cервис, который обращается к сервису курсов 
 если курс по отношению к USD за сегодня стал выше вчерашнего, то в ответ клиенту отправляется рандомная отсюда https://giphy.com/search/rich,
 если ниже - отсюда https://giphy.com/search/broke
 
-1)https://docs.openexchangerates.org/ - здесь берутся данные по валюте
+1) https://docs.openexchangerates.org/ - здесь берутся данные по валюте
 
-2)https://developers.giphy.com/docs/api#quick-start-guide - отсюда берётся gif
+2) https://developers.giphy.com/docs/api#quick-start-guide - отсюда берётся gif
 
 http://localhost:8080/v1 - GET запрос получения стартовой страницы с формой ввода данных: 
 
-| Дата(гггг-мм-дд.json)                          | App_Id                                                     | Валюта                          |
+| Дата(гггг-мм-дд)                               | App_Id                                                     | Валюта                          |
 | -------------                                  | --------------                                             | --------                        |
 | дата, с которой будет сравниваться текущий день| app_id(с сервиса https://openexchangerates.org/signup/free)| код валюты(RUB, EUR, BTC и т.д.)|
 
