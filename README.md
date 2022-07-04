@@ -19,10 +19,17 @@ http://localhost:8080/v1 - GET запрос получения стартово�
 
 Другие методы:
 GET: v1/latest/info
+
 GET: v1/latest/info
+
 GET: v1/latest/{symbols}
+
 GET: v1/historical/{date}
+
 GET: v1/historical/info/{date}
+
 GET: v1/gifs/rich
+
 GET: v1/gifs/broke
+
 GET: v1/difference
