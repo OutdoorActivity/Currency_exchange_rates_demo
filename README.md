@@ -32,5 +32,3 @@ GET: v1/historical/info/{date}
 GET: v1/gifs/rich
 
 GET: v1/gifs/broke
-
-GET: v1/difference
