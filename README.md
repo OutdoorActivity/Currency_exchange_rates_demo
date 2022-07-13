@@ -32,32 +32,3 @@ GET: v1/historical/info/{date}
 GET: v1/gifs/rich
 
 GET: v1/gifs/broke
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome page</title>
-</head>
-<body>
-<h3>Добро пожаловать!</h3>
-<form action="/v1/difference" method="GET">
-    <table border="1px">
-        <tr>
-            <td>
-                <label>Дата(гггг-мм-дд.json)</label>
-            </td>
-            <td>
-                <label>App_ID</label>
-            </td>
-            <td>
-                <label>Валюта</label>
-            </td>
-        </tr>
-    </table>
-    <td>
-        <input type="submit" value="подтвердить данные">
-    </td>
-</form>
-</body>
-</html>
