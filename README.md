@@ -32,3 +32,6 @@ GET: v1/historical/info/{date}
 GET: v1/gifs/rich
 
 GET: v1/gifs/broke
+
+![image](https://user-images.githubusercontent.com/84709845/178776132-63dada66-eecb-45f5-bfd0-c86adb8f8ca4.png)
+
