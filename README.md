@@ -41,7 +41,16 @@ GET: v1/gifs/broke
         <div class="block two first">
             <h2>Your title</h2>
             <div class="wrap">
-            //Your content
+            @SpringBootApplication
+@EnableFeignClients
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+}
+
             </div>
         </div>
     </div>
