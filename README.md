@@ -41,16 +41,38 @@ GET: v1/gifs/broke
         <div class="block two first">
             <h2>Your title</h2>
             <div class="wrap">
-            @SpringBootApplication
-@EnableFeignClients
-public class DemoApplication {
+                  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome page</title>
+</head>
+<body>
+<h3>Добро пожаловать!</h3>
+<form action="/v1/difference" method="GET">
+    <table border="1px">
+        <tr>
+            <td>
+                <label>Дата(гггг-мм-дд.json)</label>
+                <input type="text" name="date">
+            </td>
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
 
-}
-
+            <td>
+                <label>App_ID</label>
+                <input type="text" name="app_id">
+            </td>
+            <td>
+                <label>Валюта</label>
+                <input type="text" name="symbols">
+            </td>
+        </tr>
+    </table>
+    <td>
+        <input type="submit" value="подтвердить данные">
+    </td>
+</form>
+</body>
+</html>
             </div>
         </div>
     </div>
