@@ -17,11 +17,7 @@ GET /v1 - запрос получения стартовой страницы с
 Высчитывается разница значений введённой валюты по отношению к USD между текущей датой и введённой клиентом. 
 Нажимая кнопку "подтвердить данные", клиент вызывает метод с маппингом v1/difference, куда подставляются введённые параметры, и получает конечный результат. Для отображения gif для случаев broke и rich использовался шаблонизатор FreeMarker.
 
-
-
-https://user-images.githubusercontent.com/84709845/178787970-3dec3e1e-ea02-4934-8dd6-f40dc8fd5b2a.mp4
-
-
+https://user-images.githubusercontent.com/84709845/178788375-395b31e4-30c5-43b1-bc92-7378f9533b27.mp4
 
 Другие методы, их параметры и логику можно посмотреть по пути: src/main/java/com/example/demo/controller/ApiController.java
 
@@ -38,6 +34,3 @@ GET: v1/historical/info/{date}
 GET: v1/gifs/rich
 
 GET: v1/gifs/broke
-
-
-
