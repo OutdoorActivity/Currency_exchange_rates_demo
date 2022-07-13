@@ -33,10 +33,5 @@ GET: v1/gifs/rich
 
 GET: v1/gifs/broke
 
-![image](https://user-images.githubusercontent.com/84709845/178776132-63dada66-eecb-45f5-bfd0-c86adb8f8ca4.png)
-
-
-
-https://user-images.githubusercontent.com/84709845/178777098-0e750212-4fea-4fb8-98bb-f6c1cb973b3d.mp4
 
 
