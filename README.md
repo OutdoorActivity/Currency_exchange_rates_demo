@@ -20,17 +20,3 @@ GET /v1 - запрос получения стартовой страницы с
 https://user-images.githubusercontent.com/84709845/178788375-395b31e4-30c5-43b1-bc92-7378f9533b27.mp4
 
 Другие методы и их логику можно посмотреть по пути: src/main/java/com/example/demo/controller/ApiController.java
-
-GET: v1/latest/currencies - коды валют и их текущие значения
-
-GET: v1/latest/info
-
-GET: v1/latest/{symbols}
-
-GET: v1/historical/{date} 
-
-GET: v1/historical/info/{date}
-
-GET: v1/gifs/rich
-
-GET: v1/gifs/broke
