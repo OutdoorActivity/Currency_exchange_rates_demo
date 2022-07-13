@@ -46,17 +46,12 @@ GET: v1/gifs/broke
         <tr>
             <td>
                 <label>Дата(гггг-мм-дд.json)</label>
-                <input type="text" name="date">
             </td>
-
-
             <td>
                 <label>App_ID</label>
-                <input type="text" name="app_id">
             </td>
             <td>
                 <label>Валюта</label>
-                <input type="text" name="symbols">
             </td>
         </tr>
     </table>
